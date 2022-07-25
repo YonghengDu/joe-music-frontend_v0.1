@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- 用symbol方式引入图标集 -->
+    <script src="https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/svg_17152_2.0693ca8d7f3b911eb1b9f3c71190ae24.js"></script>
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
@@ -13,5 +15,7 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <!-- 设置响应式字体大小 -->
+    <script src="<%= BASE_URL %>js/resizeFontSize.js"></script>
   </body>
 </html>
