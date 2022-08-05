@@ -7,10 +7,10 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    RotationChart: typeof import('./src/components/home/rotationChart/RotationChart.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TopNav: typeof import('./src/components/home/topNav/TopNav.vue')['default']
-    VanButton: typeof import('vant/es')['Button']
     VanSwipe: typeof import('vant/es')['Swipe']
     VanSwipeItem: typeof import('vant/es')['SwipeItem']
   }

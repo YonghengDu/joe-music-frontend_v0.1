@@ -15,17 +15,17 @@
   </div>
 </template>
 <style lang="scss" scoped>
-    .topNav{
-        width: 100%;
-        padding: 10px;
-        display: flex;
-        justify-content:space-between;
-        align-items: center;
-    }
-    .navContainer span{
-        padding: 10px;
-    }
-    .active{
-        font-weight: 900;
-    }
+.topNav {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navContainer span {
+  padding: 10px;
+}
+.active {
+  font-weight: 900;
+}
 </style>
